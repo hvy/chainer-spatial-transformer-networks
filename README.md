@@ -9,7 +9,7 @@ This implementation tries to reproduce the distorted MNIST dataset described in 
 
 An animation of the transformation grids from iteration 0 to 200 using a batch size of 128.
 
-![](example/training.py)
+![](example/training.gif)
 
 
 ## Train
