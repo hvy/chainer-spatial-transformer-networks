@@ -11,7 +11,7 @@ An animation of the transformation grids from iteration 0 to 200 using a batch s
 
 ![](example/grids.gif)
 
-![](example/plot.gif)
+![](example/plot.png)
 
 ## Train
 
