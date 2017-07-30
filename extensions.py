@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-class SamplingGrid(extension.Extension):
+class SamplingGridVisualizer(extension.Extension):
     def __init__(self, x, dpi=100):
         self.x = x
         self.dpi = dpi
