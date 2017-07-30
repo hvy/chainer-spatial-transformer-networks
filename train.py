@@ -70,8 +70,8 @@ if __name__ == '__main__':
     optimizer.setup(model)
 
     updater = training.StandardUpdater(train_iter, optimizer, device=args.gpu)
-    trainer = Trainer(updater=updater, stop_trigger=args.max_iter,
-                      out=args.out)
+    trainer = Trainer(updater=updater,
+                      stop_trigger=(args.max_iter, 'iteration'), out=args.out)
     trainer.extend(extensions.LogReport(trigger=(1, 'iteration')))
     trainer.extend(extensions.PrintReport(
         ['epoch', 'iteration', 'main/loss', 'main/accuracy', 'elapsed_time']),
