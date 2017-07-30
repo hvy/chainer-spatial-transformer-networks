@@ -11,6 +11,8 @@ An animation of the transformation grids from iteration 0 to 200 using a batch s
 
 ![](example/grids.gif)
 
+Loss and accuracy plots of the ST-CNN model, compared to a CNN without the spatial transformer (ST) layer, *CNN(Pooling)*. Since the first layer becomes an average pooling layer, we also plot the training curves of a CNN without both the ST layer and the average pooling operation, *CNN*.
+
 ![](example/plot.png)
 
 ## Train
